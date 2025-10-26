@@ -1,29 +1,12 @@
-# Doctor Appointment System
+# React + Vite
 
-## Overview
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-This project is a Doctor Appointment System built with React, Express.js, and MongoDB. It includes features for managing doctors, appointments, calendars, and user authentication.
+Currently, two official plugins are available:
 
-## Features
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-- User Authentication (Login, Register, Forgot Password)
-- Manage Doctors (Add, Edit, List)
-- Manage Appointments (Add, Edit, List)
-- Manage Calendars (Add, Edit, List)
-- Navigation bar with links to different sections
+## Expanding the ESLint configuration
 
-## Getting Started
-
-### Prerequisites
-
-- Node.js and npm (Node Package Manager) installed on your machine.
-- MongoDB server running or a cloud MongoDB instance.
-- Git for version control.
-
-### Installation
-
-1. **Clone the Repository**
-
-   ```bash
-   git clone https://github.com/yourusername/doctor-appointment-system.git
-   cd doctor-appointment-system
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
